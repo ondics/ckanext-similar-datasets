@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block secondary_content %}
+    {{ super() }}
+
+    {% block similar_datasets %}
+        {% snippet 'ckanext-similar-datasets/snippets/similar_datasets.html',
+                   id=pkg.id %}
+    {% endblock %}
+{% endblock %}
+
