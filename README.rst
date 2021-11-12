@@ -1,14 +1,14 @@
 ckanext-similar-datasets
 #################
 
-Sorry, currently ony in german language available. Feel free to submit translations.
-
 *ckanext-similar-datasets* ist eine CKAN_ Extension und fügt eine Liste ähnlicher Datensätze bei der Datensatz-Detailsicht. 
 
 *ckanext-similar-datasets* war ursprünglich Teil des größeren ckanext-discovery_ Plugins und kann jetzt als eigenständiges Plugin genutzt werden.
 
 .. image:: doc/similar_datasets.png
     :alt: Screenshot of the similar_datasets plugin
+
+This Repo currently is only in german language available. Feel free to submit translations.
 
 System-Voraussetzungen
 ======================
