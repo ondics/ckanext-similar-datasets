@@ -28,14 +28,13 @@ Example:
         <section class="module module-narrow module-shallow similar-datasets">
             {% block title %}
                 <h2 class="module-heading">
-                    
                     {{ _('Similar datasets') }}
                 </h2>
             {% endblock %}
             {% block list %}
                 <ul class="nav nav-simple">
                     {% for pkg_dict in pkg_dicts %}
-                        {% set url = h.url_for(controller='dataset', action='read', id=pkg_dict.name) %}
+                        {% set url = h.url_for('dataset.read', id=pkg_dict.name) %}
                         {% set notes = h.truncate(pkg_dict.notes, 200) %}
                         <li class="nav-item">
                             {% block dataset scoped %}
